@@ -1,5 +1,5 @@
 def is_leap_year(year):
-    
+
     if year == 2100:
         return False
 
@@ -13,4 +13,3 @@ def is_leap_year(year):
         return True
     else:
         return False
-
