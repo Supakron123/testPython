@@ -1,9 +1,10 @@
 def distance(strand_a, strand_b):
+    print('strandA : ',strand_a,' strandB : ',strand_b)
     c = 0
     if len(strand_a) != len(strand_b):
-        raise ValueError
+       raise ValueError
     else:
         for i in range(len(strand_a)):
             if strand_a[i] != strand_b[i]:
                 c += 1
-        return c
+    return c
