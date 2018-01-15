@@ -4,7 +4,7 @@ def hey(phrase):
         return 'Fine. Be that way!'
     elif phrase.isupper():
         return 'Whoa, chill out!'
-    elif phrase.strip()[-1]=='?': #เป็นการตัดข้อความออกให้เหลือแค่ตัวสุดท้าย ? หรือป่าว
+    elif phrase.strip()[-1]=='?': 
         
         return 'Sure.'
     else:
