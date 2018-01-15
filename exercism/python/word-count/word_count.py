@@ -13,4 +13,3 @@ def word_count(phrase):
     print(cnt)
     
     return cnt
-

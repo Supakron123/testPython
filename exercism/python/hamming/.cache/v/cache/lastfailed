@@ -1,0 +1,4 @@
+{
+  "hamming_test.py::HammingTest::test_disallow_first_strand_longer": true,
+  "hamming_test.py::HammingTest::test_disallow_second_strand_longer": true
+}
